@@ -1,0 +1,8 @@
+Flask
+flash
+Response
+Flask-PyMongo
+pymongo
+PyMongo
+requests
+bcrypt

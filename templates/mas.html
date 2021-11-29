@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Basic Page Needs-->
+	<title>Mas</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="AuCreative theme tempalte">
+	<meta name="author" content="AuCreative">
+	<meta name="keywords" content="AuCreative theme template">
+
+	<!--Mobile Specific Metas-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="{{url_for('static',filename='images/logo.jpg')}}"/>
+
+	<!--CSS imports-->
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">	
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/revolution/css/layers.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/revolution/css/navigation.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/revolution/css/settings.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/css-hamburgers/hamburgers.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/select2/select2.min.css')}}">	
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/daterangepicker-bootstrap/daterangepicker.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/animsition/dist/css/animsition.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/main.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/animate.css')}}">
+	
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/open-iconic-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/animate.css')}}">
+    
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/magnific-popup.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/aos.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/ionicons.min.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='coffeepublic/css/jquery.timepicker.css')}}">
+
+    
+    <link rel="stylesheet" href="{{url_for('static',filename='coffeepublic/css/flaticon.css')}}">
+    
+    <link rel="stylesheet" href="{{url_for('static',filename='coffeepublic/css/style.css')}}"> 
+	<style type="text/css">
+		.blog-post {
+			border:1px solid #ddd;
+			border-redius:3px;
+			background: #fffffa;
+		
+		}
+		.blog-detail {
+			padding: 16px;
+		}
+	</style>
+</head>
+<body  class="animsition">
+	
+	<header>
+		<head>
+		<script src="https://kit.fontawesome.com/831973b5e0.js" crossorigin="anonymous"></script>
+		<head>
+		<!-- Header desktop -->
+		<div id="wrap_header" >
+			<!-- Logo -->		
+			<div class="logo col_header">
+				<a href="/"><img alt="logo-deli" src="{{url_for('static',filename='images/logo.jpg')}}"></a>
+			</div>
+			<!-- Menu -->
+			
+			<div class="main_nav" style="width:250px; margin:0 auto;"">
+				<nav class="menu col_header" >
+					<ul class="main_menu" style= "width:auto;">
+						<li><a href="#Blog">Blog</a></li>
+						<li><a href="#galeria">Galeria</a></li>
+						<li><a href="#historia">Historia</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+	
+			<!-- Socials -->
+			<div class="icon-header col_header">
+				<a  href="/"><i class="fas fa-arrow-left"></i></a>
+				<a target="_blank" href="https://www.facebook.com/bashosushi/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a target="_blank" href="https://www.instagram.com/sushibasho/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- Header Mobile -->
+		<div id="wrap_header_mobile">
+		
+			<!-- Logo moblie -->		
+			<div class="logo-mobile">
+				<a href="/">
+				<img alt="logo-deli" src="{{url_for('static',filename='images/logo_black.jpg')}}">
+				</a>
+			</div>
+			<!-- Button show menu -->
+			<div class="btn-show-menu">
+				<button class="btn-show-menu-mobile hamburger hamburger--squeeze" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>	
+		</div>
+		<!-- Menu Mobile -->
+		<div class="wrap-side-menu" >
+			<nav class="side-menu">
+				<ul class="main-menu">
+					<li>
+						<li><a href="#Blog">Blog</a></li>
+						<li><a href="#galeria">Galeria</a></li>
+						<li><a href="#historia">Historia</a></li>
+						<li><a href="/">Regresar</a></li>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+  <section id='Blog' class="ftco-section testimony-section" style="background-image: url({{url_for('static',filename='images/blog.jpg')}});" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          	<span class="subheading">Testimonios</span>
+            <h2 class="mb-4">Clientes</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate justify-content-center">
+          <div class="col-md-7">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+			{% for document in AllBlog: %}
+				<div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url({{url_for('static',filename='images/'+ document['image'].rstrip())}});">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">"{{ document['description'] }}"</p>
+                    <p class="name">{{ document['name'] }}</p>
+                    <span class="position">Cliente</span>
+                  </div>
+                </div>
+              </div>
+			  {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!-- Our History -->
+	<section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt" id="historia" >
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: url({{url_for('static',filename='images/' + AllHistoria['Image'].rstrip())}}); position: relative"></div>
+					<div class="col-sm-7 wrap-about py-5 ftco-animate">
+	          <div class="heading-section mt-5 mb-4">
+	          	<div class="pl-lg-5 ml-md-5">
+		          	<span class="subheading" style="color: red;">Acerca</span>
+		            <h2 class="mb-4">Historia de Basho</h2>
+	            </div>
+	          </div>
+	          <div class="pl-lg-5 ml-md-5">
+							<p>{{AllHistoria['Description']}}.</p>
+							<div class="thumb my-4 d-flex">
+	            	<a href="#" class="thumb-menu pr-md-4 text-center">
+	            		
+	            	</a>
+	            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!-- Banner -->
+	<div class="parallax-banner" >
+		<div class="content-banner">
+			
+			<div class="symbol-banner wow zoomIn" data-wow-delay="0.5s">
+				<img alt="symbol" src="{{url_for('static',filename='images/icons/symbol-banner.png')}}">
+				<div class="line-symbol-banner wow fadeInLeftBig" id="short-line-left" data-wow-delay="0.5s"></div>
+				<div class="line-symbol-banner wow fadeInLeftBig" id="long-line-left" data-wow-delay="0.5s"></div>
+				<div class="line-symbol-banner wow fadeInRightBig" id="short-line-right" data-wow-delay="0.5s"></div>
+				<div class="line-symbol-banner wow fadeInRightBig" id="long-line-right" data-wow-delay="0.5s"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Event -->
+	<section id="galeria">
+		<div class="container">
+			<!-- title event -->
+			<div class="wrap-title-event row">
+				<div id="title-event" class="col-12">
+					<h6>Descubre nuestra</h6>
+					<h2>Galeria de fotos</h2>
+				</div>
+				{% for document in AllGaleria:%}
+					<div class="content-event col-sm-10 col-md-8 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+						<div class="blog-post" >
+							<div class="img-event">
+								<a href="#"><img alt="picture-event" src="{{url_for('static',filename='images/' + document['Image'].rstrip())}}">
+								</a>
+							</div>
+							<div class="blog-detail">
+								<h3><a class="hover-link-color" >{{document["Title"]}}</a></h3>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+
+
+			</div>			
+		</div>
+	</section>
+	
+
+	<div align="center"><h1><a href="#Blog"> ↑</a></h1></div>
+	<footer id="footer">
+        <div class="container">
+            <div class="content-footer row">
+                <div class="column-footer col-lg-5 col-md-8 col-sm-7">
+                    <img src="{{url_for('static',filename='images/logo.jpg')}}"/>
+                    
+                </div>
+                <div class="column-footer col-lg-4 col-md-5 col-sm-7">
+                    <h1 style="color:#FFFF">Horarios:</h1>
+                    <ul id="restaurant-hours">
+                        <br/>
+                        <li>
+                            <span class="span-left"><h3>Almuerzo:</h3></span>
+							<!-- <span class="span-right">4:30PM - 10:00PM</span> -->
+                        </li>
+                        <li>
+                            <span class="span-left"> {{AllFooter["DiasAlmuerzo"]}} </span>
+							<span class="span-right"> {{AllFooter["HorarioAlmuerzo"]}}</span>                            
+                        </li>
+                        <br/>
+                        <li>
+                            <span class="span-left"><h3>Cena:</h3></span>
+							<!-- <span class="span-right">4:30PM - 10:00PM</span> -->
+                        </li>
+                        <li>
+                            <span class="span-left">{{AllFooter["DiasCena"]}}</span>
+							<span class="span-right">{{AllFooter["HorarioCena"]}}</span>
+                            
+                        </li>
+                        <li>
+                            <br/>
+                            <span class="span-left"><h3>Cerrado:</h3></span>
+							
+                        </li>
+						<li>
+                            <span class="span-left">{{AllFooter["DiasCerrado"]}}</span>
+                            
+                        </li>
+                    </ul>
+                    <div class="line-divide first-line"></div>
+                </div>
+                <div class="column-footer col-lg-3 col-md-3 col-sm-7">
+                    <ul>
+                       
+                        <li>Contacto: +506 87050407</li>
+                        <li id="follow-us"> 
+                            <a style= "padding-right:18px;padding-left:0px" target="_blank" href="https://www.facebook.com/bashosushi/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a style= "padding-right:18px;padding-left:0px" target="_blank" href="https://www.instagram.com/sushibasho/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <a href="https://www.ubereats.com/cr/store/nacionsushi-escazu/rfGol5nzQmSPnKGGvBDzEw"><img src="{{url_for('static',filename='images/ubereats.png')}}"></a>
+                   
+                    <div class="line-divide second-line"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="wrap-bottom-footer">
+            <div class="container">
+                <div class="bottom-footer row justify-content-between">
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/wow/wow.min.js')}}"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/animsition/dist/js/animsition.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/bootstrap/js/popper.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js')}}"></script>	
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/slide-custom.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/select2/select2.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/daterangepicker-bootstrap/moment.min.js"')}}></script>
+	<script type="text/javascript" src="{{url_for('static', filename='vendor/daterangepicker-bootstrap/daterangepicker.js')}}"></script>
+	<script src="{{url_for('static',filename='js/main.js')}}"></script>
+  
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery-migrate-3.0.1.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/popper.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/bootstrap.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.easing.1.3.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.waypoints.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.stellar.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/owl.carousel.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/aos.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.animateNumber.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/bootstrap-datepicker.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/jquery.timepicker.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/scrollax.min.js')}}"></script>
+	<script src="{{url_for('static', filename='coffeepublic/js/main.js')}}"></script>
+	
+	
+</body>
+</html>
