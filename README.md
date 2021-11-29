@@ -5,6 +5,7 @@ Proyecto Eléctrico, página web de restaurante japonés hecho con Python Flask,
 -Instrucciones para correrlo-
 
 *make install:* Ejecutando este comando se instalan todas la dependencias.
+
 *make run:* Ejecutando este comando se corre el servidor local de la página web.
 
 -Descripción-
