@@ -6,7 +6,7 @@ Proyecto Eléctrico, página web de restaurante japonés hecho con Python Flask,
 
 *make install:* Ejecutando este comando se instalan todas la dependencias.
 
-*make run:* Ejecutando este comando se corre el servidor local de la página web.
+*make run:* Ejecutando este comando se corre el servidor local de la página web en el puerto 2000.
 
 -Descripción-
 
