@@ -1,4 +1,4 @@
-# ProyectoElectrico_DesarrolloPaginaWebRestaurante
+# Proyecto Electrico Desarrollo Página Web Restaurante
 
 Proyecto Eléctrico, página web de restaurante japonés hecho con Python Flask, Mongodb y react
 
