@@ -111,11 +111,12 @@ def login():
             else:
                 flash("Contraseña incorrecta")
                 login_user['password'] = ""
+                return render_template("login_wtf.html",userremember= request.form['username'] )
         else:
             print("Datos no validos")
             flash("Datos no validos")
 
-    return render_template("login_wtf.html")
+    return render_template("login_wtf.html",userremember=  " ")
 
 
 @app.route('/register', methods=['GET','POST'])
